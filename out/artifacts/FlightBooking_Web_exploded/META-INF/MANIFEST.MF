@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: IntelliJ IDEA
+Built-By: Viktor
+Build-Jdk: JetBrains Runtime version 17.0.8
+Implementation-Title: FlightBooking
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: by.tms
+Main-Class: ${start-class}
+
