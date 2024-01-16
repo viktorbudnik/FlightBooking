@@ -59,7 +59,7 @@ public class CartController {
         return "redirect:/index";
     }
 
-    @GetMapping("/cartfromcateg/add/{id}")
+    @GetMapping("/cartFromCategory/add/{id}")
     public String addProdToCart(@PathVariable("id") long id) {
         Product product = productRepository.findById(id).get();
         if (product != null) {
