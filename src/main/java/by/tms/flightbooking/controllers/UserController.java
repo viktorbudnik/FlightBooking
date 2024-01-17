@@ -25,7 +25,7 @@ public class UserController {
     public String editProduct(Model model){
         User user = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         model.addAttribute("userUpdate", user);
-        return "user/updateProfile";
+        return "updateprofile";
     }
     @PostMapping("/update")
     @Transactional

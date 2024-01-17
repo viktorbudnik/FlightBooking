@@ -1,4 +1,4 @@
 FROM ubuntu:latest
 LABEL authors="Viktor"
-
-ENTRYPOINT ["top", "-b"]
+COPY /target/*.jar app.jar
+ENTRYPOINT ["java","-jar","app.jar"]
